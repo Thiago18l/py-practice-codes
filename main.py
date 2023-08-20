@@ -2,6 +2,7 @@ from src.stdin import output
 from src.is_odd import is_odd
 from src.division import division
 from src.loop import exponential
+from src import gregorian
 
 def main():
     a = int(input().strip())
@@ -20,6 +21,9 @@ def main():
     #Loop
     n = int(input().strip())
     exponential(n)
+
+    year = int(input().strip())
+    gregorian.calendar(year)
 
 if __name__ == '__main__':
     pass
