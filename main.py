@@ -4,6 +4,9 @@ from src.division import division
 from src.loop import exponential
 from src import gregorian
 from src import printter
+from src import list_comprehensions
+from src import score
+
 
 def main():
     a = int(input().strip())
@@ -27,6 +30,9 @@ def main():
     gregorian.calendar(year)
 
     printter(3)
+
+    list_comprehensions._list(x=1, y=1, z=2, n=3)
+    score.score_(5, [2, 3, 5, 5, 6])
 
 if __name__ == '__main__':
     pass
